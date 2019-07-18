@@ -1,0 +1,14 @@
+{
+  "name": "atsomone",
+  "version": "1.0.0",
+  "description": "A discord bot to brind back @Someone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CelestialCrafter",
+  "license": "MIT",
+  "devDependencies": {
+    "forever": "^1.0.0"
+  }
+}

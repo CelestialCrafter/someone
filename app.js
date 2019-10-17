@@ -13,7 +13,7 @@ client.on('message', message => {
       });
 
       let outputid = i[Math.floor(Math.random() * (i.length - 1) + 1)];
-      message.channel.send('<@'+outputid+'>');
+      message.channel.send('<@'+outputid+'>').then(msg => { msg.delete(10); })
     }
   }
 });
